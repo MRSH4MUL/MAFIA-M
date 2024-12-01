@@ -1,0 +1,115 @@
+#CAPTURE BY MD SHIMUL
+#GitHub MRSH4MUL
+
+#======file m1
+URL = https://b-graph.facebook.com/auth/login?include_headers=false&decode_body_json=false&streamable_json_response=true
+
+POST /auth/login?include_headers=false&decode_body_json=false&streamable_json_response=true HTTP/1.1
+user-agent: [FBAN/FB4A;FBAV/59.0.0.3344;FBBV/47069799;Dalvik/2.1.0(Linux; U; Android 8.0;P40 Pro Build/9Q0WGK1S)[FBAN/FB4A;FBAV/108.0.0.84.89FBBV/8018955FBDM/{density=3.0,width=715,height=930}FBLC/fr_FRFBRV/1539581FBCR/SprintFBMF/HuaweiFBBD/HuaweiFBPN/com.facebook.katanaFBDV/P40 ProFBSV/8.0FBOP/1FBCA/x86:armeabi-v7a]Dalvik/2.1.0(Linux; U; Android 5.0;CPH2171 Build/QGEO88G4)[FBAN/FB4A;FBAV/92.0.0.52.44FBBV/1035009FBDM/{density=3.0,width=454,height=1644}FBLC/pt_BRFBRV/5535503FBCR/OrangeFBMF/OPPOFBBD/OPPOFBPN/com.facebook.katanaFBDV/CPH2171FBSV/5.0FBOP/1FBCA/x86:armeabi-v7a]
+accept-encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/x-www-form-urlencoded
+Host: graph.facebook.com
+x-fb-sim-hni: 49079
+X-FB-Connection-Type: MOBILE.LTE
+Authorization: OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32
+x-fb-net-hni: 47056
+x-fb-device-group: 5120
+x-fb-session-id: nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62
+x-fb-connection-bandwidth: 478218
+x-fb-connection-quality: EXCELLENT
+X-FB-Client-IP: True
+X-FB-Server-Cluster: True
+x-fb-connection-token: d29d67d37eca387482a8a5b740f84f62
+x-fb-friendly-name: ViewerReactionsMutation
+X-FB-Request-Analytics-Tags: graphservice
+x-fb-http-engine: Liger
+Content-Length: 641
+
+adid=7d58f932-336d-478a-80ac-772e3b5e7315&email=61550250251765&password=mb+mb&cpl=true&credentials_type=device_based_login_password&source=device_based_login&error_detail_type=button_with_disabled&format=json&generate_session_cookies=1&generate_analytics_claim=1&generate_machine_id=1&family_device_id=029e0cd2-be99-4fc9-976c-8266e63ba173&advertiser_id=5436ed5f-b363-4bec-8cf3-63f12dcf8d26&locale=fr_DZ&client_country_code=DZ&device_id=5b47f3a2-954f-4294-9f70-351231643d72&method=auth.login&api_key=882a8490361da98702bf97a021ddc14d&fb_api_req_friendly_name=authenticate&fb_api_caller_class=com.facebook.account.login.protocol.Fb4aAuthHandler
+
+#=======file m2
+
+url = https://b-graph.facebook.com/auth/login?include_headers=false&decode_body_json=false&streamable_json_response=true
+
+POST /auth/login?include_headers=false&decode_body_json=false&streamable_json_response=true HTTP/1.1
+user-agent: [FBAN/FB4A;FBAV/54.0.0.2549;FBBV/74292382;Dalvik/2.1.0(Linux; U; Android 8.0;P40 Pro Build/9Q0WGK1S)[FBAN/FB4A;FBAV/108.0.0.84.89FBBV/8018955FBDM/{density=3.0,width=715,height=930}FBLC/fr_FRFBRV/1539581FBCR/SprintFBMF/HuaweiFBBD/HuaweiFBPN/com.facebook.katanaFBDV/P40 ProFBSV/8.0FBOP/1FBCA/x86:armeabi-v7a]Dalvik/2.1.0(Linux; U; Android 5.0;CPH2171 Build/QGEO88G4)[FBAN/FB4A;FBAV/92.0.0.52.44FBBV/1035009FBDM/{density=3.0,width=454,height=1644}FBLC/pt_BRFBRV/5535503FBCR/OrangeFBMF/OPPOFBBD/OPPOFBPN/com.facebook.katanaFBDV/CPH2171FBSV/5.0FBOP/1FBCA/x86:armeabi-v7a]
+accept-encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+content-type: application/x-www-form-urlencoded
+Host: graph.facebook.com
+x-fb-sim-hni: 42364
+X-FB-Connection-Type: MOBILE.LTE
+Authorization: OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32
+x-fb-net-hni: 45575
+x-fb-device-group: 5120
+x-fb-session-id: nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62
+x-fb-connection-bandwidth: 478874
+x-fb-connection-quality: EXCELLENT
+X-FB-Client-IP: True
+X-FB-Server-Cluster: True
+x-fb-connection-token: d29d67d37eca387482a8a5b740f84f62
+x-fb-friendly-name: ViewerReactionsMutation
+X-FB-Request-Analytics-Tags: graphservice
+x-fb-http-engine: Liger
+Content-Length: 649
+
+adid=376863e2-5bc2-484c-811d-15deaa5bd04d&email=61550102271896&password=mehadi+mehadi&cpl=true&credentials_type=device_based_login_password&source=device_based_login&error_detail_type=button_with_disabled&format=json&generate_session_cookies=1&generate_analytics_claim=1&generate_machine_id=1&family_device_id=897b5eac-78d3-4551-8cf1-8c6a0c70523f&advertiser_id=ac9ff74a-fae1-4914-ba4d-53c72a0a04ed&locale=ar_MA&client_country_code=MA&device_id=395d546f-d43f-4fe7-b667-377c07b1d1c9&method=auth.login&api_key=882a8490361da98702bf97a021ddc14d&fb_api_req_friendly_name=authenticate&fb_api_caller_class=com.facebook.account.login.protocol.Fb4aAuthHandler
+
+#======file m3
+
+url = https://b-graph.facebook.com/auth/login
+
+
+POST /auth/login HTTP/1.1
+user-agent: [FBAN/FB4A;FBAV/60.0.0.3918;FBBV/64209934;[FBAN/Orca-Android;FBAV/440.0.0.30.352;FBPN/com.facebook.orca;FBLC/en_US;FBBV/554361140;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/SM-A235F;FBSV/12;FBCA/arm64-v8a:null;FBDM/{density=2.8125,width=1080,height=2199};FB_FW/1;];[FBAN/Orca-Android;FBAV/439.0.0.29.119;FBPN/com.facebook.orca;FBLC/en_US;FBBV/548243065;FBCR/No service;FBMF/vivo;FBBD/vivo;FBDV/vivo 1920;FBSV/12;FBCA/arm64-v8a:null;FBDM/{density=3.0,width=1080,height=2141};FB_FW/1;];[FBAN/Orca-Android;FBAV/439.0.0.29.119;FBPN/com.facebook.orca;FBLC/bg_BG;FBBV/548243065;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/SM-G770F;FBSV/13;FBCA/arm64-v8a:null;FBDM/{density=3.0,width=1080,height=2163};FB_FW/1;];[FBAN/Orca-Android;FBAV/439.0.0.29.119;FBPN/com.facebook.orca;FBLC/bg_BG;FBBV/548243065;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/SM-G770F;FBSV/13;FBCA/arm64-v8a:null;FBDM/{density=3.0,width=1080,height=2163};FB_FW/1;];[FBAN/Orca-Android;FBAV/439.0.0.29.119;FBPN/com.facebook.orca;FBLC/pt_PT;FBBV/548243055;FBCR/Unitel STP;FBMF/samsung;FBBD/samsung;FBDV/SM-A032F;FBSV/12;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1459};FB_FW/1;];[FBAN/Orca-Android;FBAV/439.0.0.29.119;FBPN/com.facebook.orca;FBLC/en_GB;FBBV/548243065;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/SM-A525F;FBSV/12;FBCA/arm64-v8a:null;FBDM/{density=2.625,width=1080,height=2186};FB_FW/1;];[FBAN/Orca-Android;FBAV/440.0.0.30.352;FBPN/com.facebook.orca;FBLC/en_AU;FBBV/554361140;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/SM-F936B;FBSV/13;FBCA/arm64-v8a:null;FBDM/{density=2.625,width=904,height=2103};FB_FW/1;];[FBAN/Orca-Android;FBAV/440.0.0.30.352;FBPN/com.facebook.orca;FBLC/en_AU;FBBV/554361140;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/SM-F936B;FBSV/13;FBCA/arm64-v8a:null;FBDM/{density=2.625,width=904,height=2103};FB_FW/1;];[FBAN/Orca-Android;FBAV/440.0.0.30.352;FBPN/com.facebook.orca;FBLC/en_AU;FBBV/554361140;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/SM-F936B;FBSV/13;FBCA/arm64-v8a:null;FBDM/{density=2.625,width=904,height=2103};FB_FW/1;];[FBAN/Orca-Android;FBAV/440.0.0.30.352;FBPN/com.facebook.orca;FBLC/en_AU;FBBV/554361140;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/SM-F936B;FBSV/13;FBCA/arm64-v8a:null;FBDM/{density=2.625,width=904,height=2103};FB_FW/1;]
+Accept-Encoding: gzip, deflate, br, zstd
+Accept: */*
+Connection: keep-alive
+Host: graph.facebook.com
+Authorization: OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32
+x-fb-connection-bandwidth: 29920503
+x-fb-net-hni: 34528
+x-fb-sim-hni: 38333
+Zero-Rated: 0
+x-fb-connection-quality: EXCELLENT
+x-fb-connection-type: MOBILE.LTE
+Content-Type: application/json
+x-fb-http-engine: Liger
+x-fb-client-IP: True
+x-fb-server-cluster: Keep-Alive
+Content-Length: 684
+
+adid=2Ff68bf1E5CbD5Ee&method=POST&format=json&device_id=c1573bba-13f3-4cc0-8029-108fb8c7e135&family_device_id=1863f4df-1d70-4c34-9f5d-e3ec6206ea5a&secure_family_device_id=c2863a56-bc70-4d55-ac15-bb72a2d7ca49&email=61550343745557&password=%E0%A6%A4%E0%A6%BE%E0%A6%87%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%AC+%E0%A6%A4%E0%A6%BE%E0%A6%87%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%AC&cpl=true&credentials_type=password&generate_session_cookies=1&error_detail_type=button_with_disabled&generate_machine_id=1&locale=en_US&client_country_code=US&omit_response_on_success=false&enroll_misauth=false&advertising_id=65887c0d-1163-481d-8dde-eacbccbacfaa&encrypted_msisdn=&fb_api_req_friendly_name=authenticate
+
+
+#====file m4
+
+url = https://b-graph.facebook.com/auth/login
+
+
+POST /auth/login HTTP/1.1
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 7; 0 Build/QP1A.508552.583) [FBAN/FB4A;FBAV/352.0.0.167143;[FBAN/FB4A;FBAV/246.0.0.20135;FBPN/com.facebook.katana;FBLC/ en_GB;FBBV/93165288;FBCR/ Telkomsel;FBMF/samsung;FBBD/samsung;FBDV/SM-G507X;FBSV/1;FBCA/armeabi-v7a:armeabi;FBDM/{density=3,width=642,height=7445};FB_FW/9;FBRV/53300144;]
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: Keep-Alive
+Content-Type: application/x-www-form-urlencoded
+Host: graph.facebook.com
+X-FB-Net-HNI: 37657
+X-FB-SIM-HNI: 27278
+Authorization: OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32
+X-FB-Connection-Type: MOBILE.LTE
+X-Tigon-Is-Retry: False
+x-fb-session-id: nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=62f8ce9f74b12f84c123cc23437a4a32
+x-fb-device-group: 5120
+X-FB-Friendly-Name: ViewerReactionsMutation
+X-FB-Request-Analytics-Tags: graphservice
+X-FB-HTTP-Engine: Liger
+X-FB-Client-IP: True
+X-FB-Server-Cluster: True
+x-fb-connection-token: 62f8ce9f74b12f84c123cc23437a4a32
+Content-Length: 604
+
+adid=6862d770-05dd-44e7-8840-8a92816e80f4&format=json&device_id=6a41422f-1d77-4517-875b-c86ea29eecb6&email=61550250251765&password=mb+mb&generate_analytics_claims=1&community_id=&cpl=true&try_num=1&family_device_id=8f70d4de-029b-4587-a1bd-40e9c6cae6f3&credentials_type=password&source=login&error_detail_type=button_with_disabled&enroll_misauth=false&generate_session_cookies=1&generate_machine_id=1&currently_logged_in_userid=0&locale=ar_MA&client_country_code=MA&fb_api_req_friendly_name=authenticate&api_key=62f8ce9f74b12f84c123cc23437a4a32&access_token=350685531728%7C62f8ce9f74b12f84c123cc23437a4a32
